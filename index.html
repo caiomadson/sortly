@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sortly</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ead258183.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header>
+    <div class="logo">sortly.</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Empresa</a>
+      <a href="#">Preços</a>
+    </nav>
+    <div>
+      <button class="btn-secondary">Entrar</button>
+      <button class="btn">Começar</button>
+    </div>
+  </header>
+
+  <main style="text-align: center; max-width: 700px;">
+    <h1>Pronto para sortear?</h1>
+    <p class="subtitle">Me diga o tipo dos dados.</p>
+
+    <div class="textarea-container">
+      <textarea class="textarea" id="lista" placeholder="Digite ou cole nomes, e-mails ou números aqui..."></textarea>
+      <button class="sort-btn" onclick="sortear()">
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+    </div>
+
+    <div class="upload-options">
+      <button class="btn-secondary">Excel</button>
+      <button class="btn-secondary">PDF</button>
+    </div>
+
+    <div class="result" id="resultado"></div>
+
+    <div class="tags">
+      <div class="tag">Sortear nunca foi tão inteligente</div>
+      <div class="tag">Organize. Escolha. Sorteie.</div>
+      <div class="tag">Minimalista e inteligente</div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Sortly. Todos os direitos reservados.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
